@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Box Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Artem Stawetski__CV</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Stawetski</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home-alt nav__icon"></i>Домой
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user-circle nav__icon"></i
+                                >Профиль
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book-content nav__icon"></i
+                                >Образование
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-spreadsheet nav__icon"></i
+                                >Навыки
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-hard-hat nav__icon"></i>Опыт
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#courses" class="nav__link">
+                                <i class="bx bx-code-curly nav__icon"></i>Курсы
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div are generated in PDF -->
+
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!-- HOME -->
+
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img
+                                    src="img/main_foto.jpg"
+                                    alt=""
+                                    class="home__img"
+                                />
+                                <h1 class="home__title">
+                                    СТАВЕЦКИЙ <b>АРТЕМ</b>
+                                </h1>
+                                <h3 class="home__profession">
+                                    Фронтэнд разработчик
+                                </h3>
+
+                                <div>
+                                    <a
+                                        download="#"
+                                        href="#"
+                                        class="home__button-movil"
+                                        >Скачать</a
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i>
+                                    Санкт-Петербург
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i>
+                                    artemstw@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone-call home__icon"></i>
+                                    +79818880017
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Иконка смены ночного/дневного режима -->
+                        <i
+                            class="bx bx-moon change-theme"
+                            title="Theme"
+                            id="theme-button"
+                        ></i>
+
+                        <!-- Кнопка, которая формирует и скачивает PDF-файл с резюме -->
+                        <i
+                            class="bx bx-download generate-pdf"
+                            title="Generate PDF"
+                            id="resume-button"
+                        ></i>
+                    </section>
+
+                    <!-- Social -->
+
+                    <section class="social section">
+                        <h2 class="section-title">Социальные сети</h2>
+
+                        <div class="social__container bd-grid">
+                            <a
+                                href="linkedin.com"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i
+                                    class="bx bxl-linkedin-square social__icon"
+                                ></i
+                                >@stawetski
+                            </a>
+                            <!-- <a href="#" target="_blank" class="social__link">
+                                <i class="bx bxs-face social__icon"></i
+                                >@stawetski
+                            </a>
+                            <a href="#" target="_blank" class="social__link">
+                                <i class="bx bx-info-square social__icon"></i
+                                >@stawetski
+                            </a> -->
+                        </div>
+                    </section>
+
+                    <!-- Profile -->
+
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Профиль</h2>
+                        <p class="profile__description">
+                            Я начинаю свой путь в качестве
+                            Фронтэнд-разработчика.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!-- Education -->
+
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Образование</h2>
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Курс "HTML и CSS. Профессиональная
+                                        вёрстка сайтов"
+                                    </h3>
+                                    <span class="education__studies"
+                                        >HTML Academy</span
+                                    >
+                                    <span class="education__year"
+                                        >май 2021 - июль 2021</span
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Курс "HTML и CSS. Адаптивная вёрстка и
+                                        автоматизация"
+                                    </h3>
+                                    <span class="education__studies"
+                                        >HTML Academy</span
+                                    >
+                                    <span class="education__year"
+                                        >июль 2021 - сентябрь 2021</span
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Курс "Полный курс по JavaScript + React
+                                        - с нуля до результата "
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Udemy</span
+                                    >
+                                    <span class="education__year"
+                                        >сентябрь 2021 - август 2022</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Skills -->
+
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Нывыки</h2>
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>CSS
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Git
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span
+                                    >JavaScript
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Experience -->
+
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Опыт</h2>
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        ФРОНТЭНД-РАЗРАБОТЧИК
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Этот раздел еще предстоит
+                                        заполнить</span
+                                    >
+                                    <p class="experience__description">
+                                        Работа над учебными проектами
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        ФРОНТЭНД-РАЗРАБОТЧИК
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Этот раздел еще предстоит
+                                        заполнить</span
+                                    >
+                                    <p class="experience__description">
+                                        Этот раздел еще только формируется...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        ФРОНТЭНД-РАЗРАБОТЧИК
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Этот раздел еще предстоит
+                                        заполнить</span
+                                    >
+                                    <p class="experience__description">
+                                        Этот раздел еще только формируется...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Languages -->
+
+                    <section class="languages section">
+                        <h2 class="section-title">ИНОСТРАННЫЕ ЯЗЫКИ</h2>
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>
+                                    Английский - свободное владение
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="interests section">
+                        <h2 class="section-title">Мои интересы</h2>
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i
+                                    class="bx bx-camera-movie interests__icon"
+                                ></i>
+                                <span class="interests__name"
+                                    >Кино и сериалы</span
+                                >
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-landscape interests__icon"></i>
+                                <span class="interests__name">Путешествия</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">Музыка</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <!-- Scroll Top -->
+
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-chevron-up"></i>
+        </a>
+
+        <!-- HTML2PDF -->
+
+        <script src="js/html2pdf.bundle.min.js"></script>
+
+        <!-- SCRIPT.JS -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
